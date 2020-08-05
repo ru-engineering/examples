@@ -21,9 +21,9 @@ dependencies = [
 
 [[package]]
 name = "rpi_embedded"
-version = "0.0.5"
+version = "0.0.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a0eab9bd918b04813ab9d3e952b2ffee37687e7b3b1fdac387abd913c8e70c43"
+checksum = "df5eac405907eb9e6518f92dc64fd342a95f6c8d63ac3c59646bb049d4f3f0af"
 dependencies = [
  "lazy_static",
  "libc",
