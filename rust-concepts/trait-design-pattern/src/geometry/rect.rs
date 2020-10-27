@@ -1,5 +1,7 @@
 // rect.rs
-use crate::geometry::traits::{Area, Perimeter};
+
+//use crate::geometry::traits::{Area, Perimeter};  //absolute path
+use super::traits::{Area, Perimeter}; //relative to parent
 
 pub struct Rect {
     pub width: f32,

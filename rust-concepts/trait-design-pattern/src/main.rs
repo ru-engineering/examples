@@ -3,9 +3,9 @@
 // Modified by Joseph T. Foley <foley AT RU.IS> with help from shivanandvp from Rust Community Discord channel on 2020-10-27
 
 mod geometry;
-use crate::geometry::traits::Area;
 use geometry::circle::Circle;
 use geometry::rect::Rect;
+use geometry::traits::Area;
 
 fn main() {
     let rect = Rect {
